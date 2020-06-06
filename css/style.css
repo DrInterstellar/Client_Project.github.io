@@ -1,1 +1,130 @@
-/* css */
+body {
+  background-color: darkblue;
+  text-align: center;
+  font-family: barlow;
+}
+img {
+  width: 100%;
+}
+a {
+  color: darkblue;
+}
+.dropdown-menu>li>a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.dropdown-menu {
+  padding: 0px;
+  min-width: 0px;
+}
+.color, .navbar, .content, .dropdown-menu>li>a, .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color: orange;
+  color: darkblue;
+}
+.navbar {
+  border-width: 0px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+.navbar img {
+  width: 46px;
+  height: 46px;
+  margin: 2px;
+}
+.navbar a:hover {
+  background-color: #eee !important;
+}
+.float-right {
+  float: right;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.socialmediaimg {
+  padding: 0px !important;
+}
+.navbar-brand {
+  padding-top: 0px;
+}
+.active {
+  text-decoration: underline;
+}
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+.content {
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkblue;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#indexcontent {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#indexlogo {
+  margin-top: 10px;
+}
+.genreheading {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.genreheading h1 {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 100%;
+  margin: 0px;
+  text-decoration: underline;
+  color: darkblue;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.col-sm-4 h1, .col-sm-6 h1 {
+  text-decoration: underline;
+}
+.col-sm-4 h1 {
+  font-size: 30px;
+  height: 100px;
+}
+.col-sm-4 a {
+  font-size: 20px;
+}
+.col-sm-4 img {
+  height: 400px;
+}
+#btn-purchase {
+  font-size: 50px;
+  background-color: blue;
+  padding: 10px;
+  animation: rainbow 5s linear infinite;
+}
+@keyframes rainbow {
+  0%   {background-color: red;}
+  12.5%  {background-color: orange;}
+  25%  {background-color: yellow;}
+  37.5%  {background-color: green;}
+  50%  {background-color: lightblue;}
+  62.5%  {background-color: blue;}
+  75%  {background-color: indigo;}
+  87.5%  {background-color: violet;}
+  100% {background-color: red;}
+}
+.btn {
+  padding: 6px;
+}
+.col-sm-6 img {
+  height: 400px;
+}
+#checkoutcontent {
+  padding: 10px;
+}
